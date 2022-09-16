@@ -1,10 +1,14 @@
 ---
 content_type: page
+description: This section provides the homework assignments for the course, solutions,
+  and supporting files and notes.
 learning_resource_types:
 - Assignments
 ocw_type: CourseSection
 title: Assignments
 uid: 5f3f82a0-e181-6a0c-1e91-ad333b1a1edc
+video_metadata:
+  youtube_id: null
 ---
 
 {{< tableopen >}}
@@ -39,10 +43,10 @@ HW01\_2012.m ({{% resource_link 1d8560c4-4e4c-d2fa-da48-0a761e743ee7 "M" %}})
 {{< tdopen >}}
 
 
-The broadcast ephemeris file to use is mit0090s.10n ({{% resource_link bf8163f9-7746-bb38-4cbe-0981bd286734 "TXT" %}}) (containing the 10 satellites visible at MIT at 15:15 GPST) and the full set of satellites mit00900.10n ({{% resource_link 9581e77a-c522-d34c-2f66-d9b5d3fec7fe "TXT" %}}). The GPS interface control document icd200cw1234.pdf (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://geoweb.mit.edu/~tah/icd200c123.pdf)) will be useful for this homework. The sub-section of ICD2000 that discusses the broadcast ephemeris is icd200cw1234.Nav.pdf (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 1.3MB](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.Nav.pdf))
+The broadcast ephemeris file to use is mit0090s.10n ({{% resource_link bf8163f9-7746-bb38-4cbe-0981bd286734 "TXT" %}}) (containing the 10 satellites visible at MIT at 15:15 GPST) and the full set of satellites mit00900.10n ({{% resource_link 9581e77a-c522-d34c-2f66-d9b5d3fec7fe "TXT" %}}). The GPS interface control document icd200cw1234.pdf ([PDF](http://geoweb.mit.edu/~tah/icd200c123.pdf)) will be useful for this homework. The sub-section of ICD2000 that discusses the broadcast ephemeris is icd200cw1234.Nav.pdf ([PDF - 1.3MB](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.Nav.pdf))
 
 Rinex Definition  
-ftp://igscb.jpl.nasa.gov/pub/data/format/rinex2.txt ([TXT](./resolveuid/102743cfd6f15a1d208bb4a924f7c134))
+ftp://igscb.jpl.nasa.gov/pub/data/format/rinex2.txt ({{% resource_link "102743cf-d6f1-5a1d-208b-b4a924f7c134" "TXT" %}})
 
 M-file to read Broadcast file ReadNav.m ({{% resource_link 4d4cdda0-bdd2-6b79-e0b6-41bd99545dbb "M" %}})
 {{< tdclose >}}

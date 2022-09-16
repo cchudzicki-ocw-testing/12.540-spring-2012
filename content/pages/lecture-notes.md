@@ -1,10 +1,14 @@
 ---
 content_type: page
+description: This section provides the schedule of lecture topics, a full set of lecture
+  notes, supporting files, and links to related web sites.
 learning_resource_types:
 - Lecture Notes
 ocw_type: CourseSection
 title: Lecture Notes
 uid: 7db57be8-2ce7-e0cd-b529-3f5578c683b0
+video_metadata:
+  youtube_id: null
 ---
 
 {{< tableopen >}}
@@ -80,7 +84,7 @@ Coordinate types ({{% resource_link 5d5bf2c3-92fe-380f-1247-2bbca0280130 "PDF - 
 {{< tdopen >}}
 Coordinate systems, rotation of the Earth, Geoid, Spherical trigonometry  
 [International Earth Rotation and Reference Systems Service](http://www.iers.org/)  
-Modeling of Nutation-Precession: Very long baseline interferometry results (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.pdf))  
+Modeling of Nutation-Precession: Very long baseline interferometry results ([PDF](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.pdf))  
 [Computation of Geoid99 Geoid Height](http://www.ngs.noaa.gov/cgi-bin/GEOID_STUFF/geoid99_prompt1.prl)  
 [Spherical Trigonometry](http://mathworld.wolfram.com/SphericalTrigonometry.html)
 {{< tdclose >}}
@@ -95,8 +99,8 @@ GPS satellite orbits ({{% resource_link 2e7e2288-8dd1-8714-ed32-cbd3a592c520 "PD
 {{< tdclose >}}
 {{< tdopen >}}
 GPS satellite orbits. The MATLAB program to compute eccentic and true anomalies is truea.m ({{% resource_link d3f28a89-0aea-3016-05f8-e8b18f7309f6 "M" %}})  
-The GPS interface control document (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.pdf))  
-Unclassified (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 1.3MB](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.Nav.pdf))
+The GPS interface control document ([PDF](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.pdf))  
+Unclassified ([PDF - 1.3MB](http://geoweb.mit.edu/~tah/12.540/icd200cw1234.Nav.pdf))
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -134,7 +138,7 @@ Pseudorange measurements ({{% resource_link 7a866b4a-6977-a0bc-4537-aab5c8dc581d
 {{< tdopen >}}
 Pseudorange and phase measurements. The data file displayed in class is etab.plt.dat ({{% resource_link 823d0630-d8a3-2aad-008e-bca5e3dd37f4 "DAT" %}})  
 [TEQC—The Toolkit for GPS/GLONASS/Galileo/SBAS Data](http://www.unavco.org/facility/software/teqc/teqc.html)  
-RINEX: The Receiver Independent Exchange Format Version 2 ([TXT](./resolveuid/7011abfcc38880524b44d32e07d31bc8))
+RINEX: The Receiver Independent Exchange Format Version 2 ({{% resource_link "7011abfc-c388-8052-4b44-d32e07d31bc8" "TXT" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -238,7 +242,7 @@ Propagation medium: neutral atmosphere ({{% resource_link 18bff88e-0626-8932-d60
 {{< tdopen >}}
 Tropospheric delay estimation  
 [The Height of the Tropopause](http://www-das.uwyo.edu/~geerts/cwx/notes/chap01/tropo.html)  
-Effects of the Troposheric Mapping Function on Space Geodetic Data (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 1.0MB](http://gauss.gge.unb.ca/papers.pdf/igs97tropo.pdf))  
+Effects of the Troposheric Mapping Function on Space Geodetic Data ([PDF - 1.0MB](http://gauss.gge.unb.ca/papers.pdf/igs97tropo.pdf))  
 [Index of /DELAY](http://ggosatm.hg.tuwien.ac.at/DELAY/)
 {{< tdclose >}}
 
@@ -353,12 +357,12 @@ Kinematic GPS processing and results from experiment earlier in semester
 Results from MIT survey  
 track\_LC.out ({{% resource_link f3790fe2-5d51-06a0-d54a-780cd7f970e9 "TXT" %}})  
 track.NEU.rovr.LC ({{% resource_link 594b0826-c0ac-7adf-fe34-0fe0edcc0be5 "TXT" %}})  
-track.NEU.rovr.L1+L2 ([TXT](./resolveuid/adb820ca15496d7ae116d84a824ae963))  
+track.NEU.rovr.L1+L2 ({{% resource_link "adb820ca-1549-6d7a-e116-d84a824ae963" "TXT" %}})  
 
 **Results from the 2010 MIT survey**
 
-TR02.sum ({{% resource_link fb17f61e-7d2e-3ba5-555b-fb1162fe1364 "TXT" %}}) TR02.out ({{% resource_link 7a9966fc-1960-0b7a-2be1-d0b0a58629d3 "TXT" %}}) TR02.NEU.rovr.L1+L2 ([TXT](./resolveuid/c1d2a222013826d2b468d6da55c971aa)) TR02.NEU.rovr.LC ({{% resource_link 727bcf44-8e41-2c0f-6312-5fddec4d86c3 "TXT" %}})  
-TR0p.sum ({{% resource_link fa022ac8-8dee-ac3e-adfe-2a40c739cebc "TXT" %}}) TR0p.NEU.rovr.P1+P2 ([TXT](./resolveuid/f7c410edbea672c589d1296fb63a0d02))
+TR02.sum ({{% resource_link fb17f61e-7d2e-3ba5-555b-fb1162fe1364 "TXT" %}}) TR02.out ({{% resource_link 7a9966fc-1960-0b7a-2be1-d0b0a58629d3 "TXT" %}}) TR02.NEU.rovr.L1+L2 ({{% resource_link "c1d2a222-0138-26d2-b468-d6da55c971aa" "TXT" %}}) TR02.NEU.rovr.LC ({{% resource_link 727bcf44-8e41-2c0f-6312-5fddec4d86c3 "TXT" %}})  
+TR0p.sum ({{% resource_link fa022ac8-8dee-ac3e-adfe-2a40c739cebc "TXT" %}}) TR0p.NEU.rovr.P1+P2 ({{% resource_link "f7c410ed-bea6-72c5-89d1-296fb63a0d02" "TXT" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
